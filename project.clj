@@ -12,7 +12,8 @@
                  [ring/ring-jetty-adapter "1.4.0"]
                  [environ "1.0.1"]
                  [cheshire "5.5.0"]]
-  :plugins [[lein-ring "0.9.7"]]
+  :plugins [[lein-ring "0.9.7"]
+            [lein-environ "1.0.1"]]
   :ring { :handler deeppocket.handler/app
           :init deeppocket.handler/init }
   :profiles
